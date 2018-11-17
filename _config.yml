@@ -1,4 +1,4 @@
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+baseurl: "/nathanin.github.io" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "nathanin.github.io" # the base hostname & protocol for your site.
 
 paginate: 4 #articles per page
@@ -16,7 +16,7 @@ email:
 
 # disqus comment
 disqus:
-    shortname: "test" #your disqus comment short name
+    shortname: "githubio" #your disqus comment short name
 
 # google analytics
 google:
