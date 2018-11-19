@@ -38,6 +38,9 @@ pre code {
 .highlight {
   border-radius: 4px;
   margin: 0 0 10px;
+
+  max-width: 700;
+  overflow: auto;
 }
 
 .highlight pre {
