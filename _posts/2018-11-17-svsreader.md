@@ -3,6 +3,8 @@ title: "SVS-Reader: the one-stop interface for reading Aperio SVS in Python"
 tags: [svs-reader]
 ---
 
+## SVS reader
+
 View the SVS-reader [project](https://github.com/BioImageInformatics/svs_reader).
 
 Probably the most popuplar (and sensible) ways to store huge images, sometimes greater than 50,000 px per edge, is as a TIFF pyramid. With a pyramid, we only save a few discrete magnification levels, letting viewing software interpolate between the levels, and only pull in only the image data needed for the current field of view. Aperio's SVS format (Lieca Biosystems, now owned by Philips (?)) uses this image pyramid to store images from their whole slide scanners. The formatting choice is appropriate, given that tissues have multi-scale information. That is, there are structures visible at low-magnification that we lose at high magnification, but also high power only features that are averaged over at lower resolutions. In this post, I am going to showcase a python class for working with these images by detailing the development of an application to tally the area of cancer in a set of TCGA slides.
