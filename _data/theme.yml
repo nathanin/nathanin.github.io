@@ -2,14 +2,14 @@
 
 # remove excerpt from blog page
 # make it look compact (shows only title and date)
-compact: false
+compact: true
 
 # show posts navs
 show_post_navs: true
 
 # show this info in post header
-show_post_commets_count: true
-show_post_tags: true
+show_post_commets_count: false
+show_post_tags: false
 
 # customize max-width of the main content
 # 700px, 900px etc

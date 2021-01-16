@@ -3,8 +3,6 @@ title: "Self supervision in bioimage analysis"
 tags: [machine-learning]
 ---
 
-## Self supervision in bioimage analysis
-
 An often cited double-edged sword in bioimaging is the over-abundance of unlabelled data.
 On one hand, platforms like MIBI [REF], CyTOF [REF], CODEX [REF], and plain old H&E staining produce images with 
 100,000 cells or more.
@@ -41,8 +39,8 @@ In the original data, different variables (e.g. genes, genomic positions, XY coo
 These features should capture an aspect of the high-dimensional covariation, and together recapitulate all the pertinent information in the original data. 
 (Bonus if each feature captures a __unique__ (or disentangled) aspect of the high-dimensional data.)
 
-The golden example of such a technique is principle components analysis (PCA), and related techniques like singular value decomposition (SVD).
-... We need a technique that will deal with unordered, shuffled, and noisy data. 
+<!-- The golden example of such a technique is principle components analysis (PCA), and related techniques like singular value decomposition (SVD).
+... We need a technique that will deal with unordered, shuffled, and noisy data.  -->
 
 ### Contrastive learning
 
